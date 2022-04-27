@@ -21,7 +21,7 @@
 .header-content {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  padding: 15px;
+  padding: 25px;
 }
 
 .form-container {
@@ -32,6 +32,7 @@
   width: 100%;
   max-width: 800px;
   border-radius: 1%;
+  background-color: rgb(239, 239, 239);
 }
 
 .button {
@@ -41,19 +42,15 @@
   height: 60px;
   width: 35%;
   border-radius: 8px;
-  background-color: rgb(255, 255, 255);
+  color: rgb(238, 238, 238);
+  background-color: rgb(142, 142, 142);
 }
 
 .button:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   transform: scale(1.1);
   transition: all 0.6s ease-in-out;
-  background: rgb(201, 201, 201);
-  background: linear-gradient(
-    62deg,
-    rgb(128, 136, 148) 0%,
-    rgb(82, 114, 218) 100%
-  );
+  background-color: rgb(192, 192, 192);
 }
 
 .page-footer {
