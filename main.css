@@ -2,6 +2,7 @@
 
 body {
   background-color: rgb(45, 45, 45);
+  background-color: rgb(52, 52, 52);
   font-family: 'Nunito', sans-serif;
   margin-top: 5rem;
 }
@@ -33,7 +34,7 @@ body {
   border-width: 1px;
   border-radius: 6px;
   color: rgb(244, 244, 244);
-  background-color: rgb(45, 45, 45);
+  background-color: rgb(52, 52, 52);
 }
 
 .form-control {
@@ -53,7 +54,7 @@ body {
   border-width: 1px;
   border-radius: 2rem;
   color: rgb(244, 244, 244);
-  background-color: rgb(45, 45, 45);
+  background-color: rgb(52, 52, 52);
 }
 
 .button:hover {
@@ -63,5 +64,10 @@ body {
   background-color: rgb(7, 243, 106);
 }
 
-
+@media screen and (max-width: 600px) {
+  .button {
+    height: 50px;
+    width: 32%;
+  } 
+}
 
