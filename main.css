@@ -30,11 +30,18 @@ body {
 .question-container {
   padding: 1rem;
   margin-bottom: 1rem;
-  border: solid rgb(152, 152, 152);
+  border: solid rgb(86, 86, 86);
   border-width: 1px;
-  border-radius: 6px;
+  border-radius: 4px;
   color: rgb(244, 244, 244);
   background-color: rgb(52, 52, 52);
+}
+
+.question-container:hover {
+  border: solid rgb(152, 152, 152);
+  border-width: 1px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
 }
 
 .form-control {
@@ -60,7 +67,7 @@ body {
 .button:hover {
   color: rgb(68, 65, 65);
   border: none;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   background-color: rgb(7, 243, 106);
 }
 
